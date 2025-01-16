@@ -1,0 +1,40 @@
+/* Top Navigation Bar */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10%; /* Fixed height for the TopNav */
+  width: 100%;
+  background-color: #ffffff; /* Example background color */
+  border-bottom: 1px solid #ccc; /* Optional: bottom border */
+  z-index: 1000; /* Ensures it stays above SideNav */
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  padding: 0 1rem; /* Adds horizontal padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+}
+
+/* Side Navigation Bar */
+.side-nav {
+  position: fixed;
+  top: 10%; /* Starts just below the TopNav */
+  left: 0;
+  width: 15%; /* Fixed width for the SideNav */
+  height: 90%; /* Occupies the remaining vertical space */
+  background-color: #f8f9fa; /* Example background color */
+  border-right: 1px solid #ccc; /* Optional: right border */
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  padding: 1rem 0; /* Adds vertical padding */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+}
+
+/* Content Area */
+.content {
+  margin-left: 15%; /* Leaves space for the SideNav */
+  height: 100vh; /* Adjust height based on remaining space */
+  width: 85%;
+  display: flex;
+}
+
+

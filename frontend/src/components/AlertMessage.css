@@ -1,0 +1,7 @@
+.custom-alert-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050; /* Ensure it stays above other content */
+  max-width: 300px; /* Optional: Adjust the max width if needed */
+}
